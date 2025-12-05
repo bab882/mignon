@@ -1,0 +1,59 @@
+.header {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../../assets/img/background_noel.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.content {
+    /* background-color: red; */
+    padding: 2rem;
+}
+
+h1 {
+    font-family: "Clash_Regular";
+    font-size: 1.8rem;
+    align-items: start;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px;
+    color: #ffffff;
+    line-height: 1.2rem;
+    text-shadow: 
+        2px 2px 0 #7DA7CC,
+        -2px -2px 0 #7DA7CC,
+        2px -2px 0 #7DA7CC,
+        -2px 2px 0 #7DA7CC,
+        0px 0px 10px rgba(0,0,0,0.5);
+}
+
+p {
+    font-family: "Clash_Regular";
+    color: #ffffff;
+    font-size: 0.62rem;
+    letter-spacing: 1px;
+    padding: 10px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.btn_design {
+    color: #ffffff;
+    background: #8bd439;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 0.4rem;
+    border: 1px solid #000000;
+    font-size: 1rem;
+}

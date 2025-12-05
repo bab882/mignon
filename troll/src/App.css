@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "Clash_Regular";
+    src: url("../src/assets/fonts/Clash_Regular.otf");
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container {
+    height: 100vh;
+    width: 100vw;
+}

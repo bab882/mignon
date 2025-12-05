@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../../assets/img/background_noel.jpg");
+  /* background-image: url("https://clashofclans.fr/wp-content/uploads/2025/11/Scenery_FrostAge_Screenshot-1536x922.jpg"); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: center;
+  gap: 2rem;
+  overflow: hidden;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 par ligne */
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.5rem;
+}
+
+.btn {
+  background: transparent;
+  border: none;
+}
+
+.gift {
+  width: 60px;
+  height: auto;
+  cursor: pointer;
+  transition: 0.25s ease;
+  filter: saturate(0.75) brightness(0.88) hue-rotate(8deg);
+}
+
+.gift:hover {
+  transform: scale(1.08);
+  filter: 
+    brightness(1.05)
+    saturate(1.1)
+    hue-rotate(-15deg)
+    drop-shadow(0 0 10px rgba(160, 220, 255, 0.9));
+}
+
+.text {
+  font-size: 1rem;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #ffffff;
+  line-height: 1.2rem;
+  text-shadow: 
+    2px 2px 0 #7DA7CC,
+    -2px -2px 0 #7DA7CC,
+    2px -2px 0 #7DA7CC,
+    -2px 2px 0 #7DA7CC,
+    0px 0px 10px rgba(0,0,0,0.5);
+}
