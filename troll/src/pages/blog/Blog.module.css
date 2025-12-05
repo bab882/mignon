@@ -48,6 +48,7 @@
 
 .text {
   font-size: 1rem;
+  font-family: "Clash_Regular";
   align-items: center;
   text-align: center;
   text-transform: uppercase;
@@ -61,3 +62,12 @@
     -2px 2px 0 #7DA7CC,
     0px 0px 10px rgba(0,0,0,0.5);
 }
+
+/* p {
+    font-family: "Clash_Regular";
+    color: #ffffff;
+    font-size: 0.62rem;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 20px;
+} */

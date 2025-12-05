@@ -7,10 +7,10 @@ function gift1() {
 
   const navigate = useNavigate()
   return (
-    <div>
-      {/* <h1>Cadeau 1</h1> */}
+    <div className={styles.container}>
+      <h3>Cadeau 1</h3>
       <img className={styles.img} src={reine} alt="" />
-      <button onClick={() => navigate("/message1")} className={styles.btn}>Réclamer</button>
+      <button onClick={() => navigate("/message1")} className={styles.btn}>Continue</button>
     </div>
   )
 }

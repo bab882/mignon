@@ -6,10 +6,10 @@ function Footer() {
     <>
     <div className={styles.footer}>
         <span>Prank by La Glorie & SHEITAN</span>
-        <button to="https://discord.gg/957GQHs" className={styles.button}>
+        <a href="https://discord.gg/957GQHs" className={styles.button} target="_blank" rel="noopener noreferrer">
             <i className="fa-brands fa-discord"></i>
             <span className={styles.text}>Rejoindre le serveur</span>
-        </button>
+        </a>
     </div>
     </>
     

@@ -1,4 +1,4 @@
-.header {
+.container {
     height: 100vh;
     width: 100vw;
     background-image: url("../../assets/img/background_noel.jpg");
@@ -10,17 +10,22 @@
     flex-direction: column;
     align-items: center;
     overflow: hidden;
+    gap: 20px;
 }
 
 .content {
-    /* background-color: red; */
-    padding: 2rem;
+    max-width: 500px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
 }
 
 h1 {
     font-family: "Clash_Regular";
     font-size: 1.8rem;
-    align-items: start;
+    align-items: center;
     text-transform: uppercase;
     letter-spacing: 1px;
     padding: 10px;
@@ -32,20 +37,33 @@ h1 {
         2px -2px 0 #7DA7CC,
         -2px 2px 0 #7DA7CC,
         0px 0px 10px rgba(0,0,0,0.5);
+    padding: 20px;
 }
 
-p {
+.text {
     font-family: "Clash_Regular";
     color: #ffffff;
     font-size: 0.62rem;
     letter-spacing: 1px;
-    padding: 10px;
+    line-height: 1rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.text_sec {
+    font-family: "Clash_Regular";
+    color: #ffffff;
+    font-size: 0.62rem;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 1rem;
+    margin-bottom: 30px;
 }
 
 .btn {
     display: flex;
     justify-content: center;
-    
+    align-items: baseline;
 }
 
 .btn_design {
