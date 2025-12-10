@@ -14,7 +14,7 @@
 }
 
 .content {
-    max-width: 500px; 
+    max-width: 300px; 
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -43,7 +43,7 @@ h1 {
 .text {
     font-family: "Clash_Regular";
     color: #ffffff;
-    font-size: 0.62rem;
+    font-size: 0.8rem;
     letter-spacing: 1px;
     line-height: 1rem;
     text-align: center;
@@ -53,7 +53,7 @@ h1 {
 .text_sec {
     font-family: "Clash_Regular";
     color: #ffffff;
-    font-size: 0.62rem;
+    font-size: 0.8rem;
     letter-spacing: 1px;
     text-align: center;
     line-height: 1rem;
