@@ -11,6 +11,15 @@
     align-items: center;
     overflow: hidden;
     gap: 20px;
+    position: relative;
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.15);
+  z-index: 0;
 }
 
 .content {
@@ -64,14 +73,17 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: baseline;
+    
 }
 
 .btn_design {
     color: #ffffff;
     background: #8bd439;
+    font-family: "Clash_Regular";
     text-decoration: none;
     padding: 10px;
     border-radius: 0.4rem;
     border: 1px solid #000000;
-    font-size: 1rem;
+    font-size: 0.8rem;
+    z-index: 1;
 }
