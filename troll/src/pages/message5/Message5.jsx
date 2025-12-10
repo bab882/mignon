@@ -4,7 +4,7 @@ import ginette from '../../assets/gif/ginette.gif'
 import Song from '../../components/song/Song'
 import Footer from '../../components/footer/Footer'
 
-function Message1() {
+function Message5() {
   return (
     <div className={styles.container}>
         <Song />
@@ -17,4 +17,4 @@ function Message1() {
   )
 }
 
-export default Message1
+export default Message5

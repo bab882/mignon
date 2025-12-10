@@ -43,31 +43,31 @@ function Blog() {
             <img className={styles.giftGems} src={gems} alt="Gems" />
           </button>
 
-          <button onClick={() => navigate("/gift6")} className={styles.btn}>
+          <button onClick={() => navigate("/message6")} className={styles.btn}>
             <img className={styles.gift} src={shiny} alt="Shiny ores" />
           </button>
 
-          <button onClick={() => navigate("/gift7")} className={styles.btn}>
+          <button onClick={() => navigate("/message7")} className={styles.btn}>
             <img className={styles.gift} src={glowy} alt="Glowy ore" />
           </button>
 
-          <button onClick={() => navigate("/gift8")} className={styles.btn}>
+          <button onClick={() => navigate("/message8")} className={styles.btn}>
             <img className={styles.gift} src={star} alt="Starry ore" />
           </button>
 
-          <button onClick={() => navigate("/gift9")} className={styles.btn}>
+          <button onClick={() => navigate("/message9")} className={styles.btn}>
             <img className={styles.giftHero} src={king} alt="King league" />
           </button>
 
-          <button onClick={() => navigate("/gift10")} className={styles.btn}>
+          <button onClick={() => navigate("/message10")} className={styles.btn}>
             <img className={styles.giftHero} src={queen} alt="Queen league" />
           </button>
 
-          <button onClick={() => navigate("/gift11")} className={styles.btn}>
+          <button onClick={() => navigate("/message11")} className={styles.btn}>
             <img className={styles.gift} src={equipment} alt="Electro bottes" />
           </button>
 
-          <button onClick={() => navigate("/gift12")} className={styles.btn}>
+          <button onClick={() => navigate("/message12")} className={styles.btn}>
             <img className={styles.giftDecor} src={decor} alt="Decor" />
           </button>
 
