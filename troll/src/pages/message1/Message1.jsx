@@ -8,10 +8,11 @@ function Message1() {
   return (
     <div className={styles.container}>
         <Song />
-        <span className={styles.text}>Tu crois encore au Père Noël ? Pathétique…</span>
+        
         <div className={styles.img}>
             <img src={ginette} alt="Dame Ginette" />
         </div>
+        <span className={styles.text}>Tu crois encore au Père Noël ? Pathétique…</span>
         <Footer />
     </div>
   )

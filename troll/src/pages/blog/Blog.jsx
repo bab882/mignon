@@ -1,6 +1,5 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-
 import hero from "../../assets/img/book_hero.png";
 import bat from "../../assets/img/book_bat.png";
 import universal from "../../assets/img/book_universal.png";
@@ -32,15 +31,15 @@ function Blog() {
             <img className={styles.gift} src={bat} alt="Book Batiment" />
           </button>
 
-          <button onClick={() => navigate("/gift3")} className={styles.btn}>
+          <button onClick={() => navigate("/message3")} className={styles.btn}>
             <img className={styles.gift} src={universal} alt="Book Universal" />
           </button>
 
-          <button onClick={() => navigate("/gift4")} className={styles.btn}>
+          <button onClick={() => navigate("/message4")} className={styles.btn}>
             <img className={styles.gift} src={troupes} alt="Book Troupes" />
           </button>
 
-          <button onClick={() => navigate("/gift5")} className={styles.btn}>
+          <button onClick={() => navigate("/message5")} className={styles.btn}>
             <img className={styles.giftGems} src={gems} alt="Gems" />
           </button>
 

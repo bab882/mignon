@@ -131,3 +131,14 @@ body {
     0px 0px 10px rgba(0,0,0,0.5);
 
 }
+
+
+@media screen and (min-width: 540px) {
+    /* .grid {
+      background-color: red;
+    } */
+    .btn {
+      width: 100px;
+      height: 100px;
+    }
+}
