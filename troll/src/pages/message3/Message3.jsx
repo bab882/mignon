@@ -11,7 +11,7 @@ function Message3() {
         <div className={styles.img}>
             <img src={ginette} alt="Dame Ginette" />
         </div>
-        <span className={styles.text}>Un livre universel ? Dommage que ta skill ne se débloque pas pareil.</span>
+        <span className={styles.text}>Un livre universel ? Dommage que ton skill ne se débloque pas pareil.</span>
         <Footer />
     </div>
   )

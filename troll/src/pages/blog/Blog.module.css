@@ -40,8 +40,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 65px;
-  height: 65px;
+  width: 80px;
+  height: 80px;
   z-index: 1;
 }
 
